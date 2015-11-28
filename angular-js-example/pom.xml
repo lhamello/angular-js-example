@@ -5,6 +5,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <dependencies>
+        <!-- JAVA EE -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
+        </dependency>
+    </dependencies>
+
     <!-- SONAR -->
     <profiles>
         <profile>
